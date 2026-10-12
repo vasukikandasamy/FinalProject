@@ -1,0 +1,16 @@
+DB
+
+CREATE TABLE demo.employee (
+id INT PRIMARY KEY,
+name VARCHAR(100) NOT NULL,
+salary DECIMAL(10.2),
+hiredate DATE,
+address VARCHAR(255)
+);
+
+
+INSERT INTO demo.employee (id,name,salary,hiredate,address) VALUES(1234,'Vasuki',20000,'2024-09-12','USA'),
+(1235,'Vasuki',20000,'2025-09-30','UK'),
+(12,'Vasuki',20000,'2019-09-25','IND'),
+(125,'Vasuki',20000,'2024-09-12','German'),
+(123,'Vasuki',20000,'2024-12-12','France');
