@@ -1,0 +1,112 @@
+(//*[text()='Engineer'])[1]//following::td[1] -----https://rahulshettyacademy.com/AutomationPractice/?utm_source=chatgpt.com
+
+
+file:///C:/Users/NEW/Downloads/Test123.html
+
+//*[text()='Link 2']//following-sibling::button (or)
+//a[text()='Link 2']//following-sibling::button
+
+//*[text()='Link 2']//preceding-sibling::p
+
+//a[text()='Link 2']//preceding::a
+
+//a[text()='Link 2']//ancestor::div - link2 ---- 2 ancestors
+
+//*[text()='Link 2']//parent::div --- 1 parent
+
+//td[text()="Testing"]//ancestor::tr//td//*[@type='checkbox']
+
+
+https://rahulshettyacademy.com/AutomationPractice/?utm_source=chatgpt.com
+
+edit-vega-----
+(//td[text()='Vega']//following::div/span)[1]
+
+//td[text()='Vega']//following-sibling::td//span[contains(@id,'edit-record-1')]
+
+//td[text()='John']//following-sibling::td[text()='75,000']
+
+
+https://www.nseindia.com/market-data/live-equity-market
+//a[text()='HINDALCO']//following::td[@data-ws-symbol-col='HINDALCO-pChange']
+
+
+makemytrip:
+   //div[.//*[contains(text(),'20:45')] and .//*[contains(text(),'Non Stop')]]//button[@id='bookbutton-RKEY:63f52621-9897-4063-b76e-7ad8190d6bc2:21_0']
+
+//p[contains(text(),'Non Stop')]//following::*[contains(text(),'20:45')]//following::button[@id='bookbutton-RKEY:63f52621-9897-4063-b76e-7ad8190d6bc2:21_0']
+
+//p[contains(text(),'Non Stop')]//following::*[contains(text(),'20:45')]//following::span[text()='₹ 10,678']//following::button[@id='bookbutton-RKEY:d1ab1373-8008-407e-bad4-3cd642a25dc0:21_0']
+
+
+Amazon:
+(//span[contains(text(),'iPhone 17e 256 GB')])[1] /ancestor::div[@data-component-type='s-search-result'] //span[@class='a-price']//span[@class='a-offscreen']
+
+right one:
+//span[contains(text(),'Apple iPhone 17e 256 GB:')]//following::span[@class='a-price-whole'][1]
+
+practise:
+
+//button[@id='a-autoid-1-announce']//preceding::span[1]
+
+
+https://www.saucedemo.com/inventory.html
+//div[@class='']//div[text()=''>15]
+
+//div[@class='pricebar']//div[text()<15]
+
+//css selector
+
+https://www.tutorialspoint.com/selenium/practice/selenium_automation_practice.php
+[id$='ile']--ends-with
+[id^='mo']---starts-with
+[id*='m']----contains
+#mobile----id value
+
+classname===.className
+
+[id='subjects'][name='subjects']
+
+xpath Vz CSS
+
+
+https://www.tutorialspoint.com/selenium/practice/selenium_automation_practice.php
+https://demo.guru99.com/test/selenium-xpath.html
+https://demo.automationtesting.in/Register.html
+https://demoqa.com/automation-practice-form
+https://www.w3schools.com/jsref/tryit.asp?filename=tryjsref_pushbutton_disabled2&utm_source=chatgpt.com
+https://www.knowledgeware.in/Automation/practiceform.html
+https://www.nseindia.com/market-data/live-equity-market
+https://demoqa.com/webtables?utm_source=chatgpt.com
+
+https://demo.automationtesting.in/Alerts.html
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+//*[contains(., '256GB Starting Storage;Black')][max(//price)]
+
+
+
+
+
+file:///C:/Users/NEW/Downloads/WebTable3.html
+//td[text()='David']/preceding-sibling::td//input[@type='checkbox']
+
+//input[@type='checkbox']//following::td[text()='David']
+file:///C:/Users/NEW/Downloads/WebTable3.html
+
+//td[text()='Sophia']//parent::tr/td[1]
+//td[text()='David']//parent::tr/td[1]
